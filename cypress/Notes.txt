@@ -1,0 +1,14 @@
+1. make class file visible
+   export default Login;
+
+2. Cypress Autosuggestion
+   /// <reference types="Cypress" />
+
+3. xpath in Cypress
+   npm install -D cypress-xpath
+
+4. add scripts location in cypress.config.js
+5. add beforeeach, custom login function, testscripts inside describe
+
+6. To develop mochawesome reporter
+   https://www.npmjs.com/package/cypress-mochawesome-reporter    

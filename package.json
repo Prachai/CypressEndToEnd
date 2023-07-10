@@ -1,0 +1,20 @@
+{
+  "name": "cypressendtoend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "recordingcloud": "npm run test -- --record --key a715e2f3-f4ac-45a5-b6d8-782e979d2464 --spec cypress/integration/TestScripts/*.js --headed --browser chrome",
+    "chrome": "npm run test -- --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}

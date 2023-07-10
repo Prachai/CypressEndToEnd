@@ -1,0 +1,24 @@
+1.  // comment line
+    /* multi line comment */
+
+2.  var --- global/function level (only function not block level)
+    so to avoid confusion
+
+    let is using everywhere ----global/ block level
+    const is similar to let except re assign
+
+    let redeclare is not possible but var can
+
+3.  if, if else, while, for loop almost same
+
+4. In JavaScript, objects can be created using object literals, constructor functions, or classes. 
+    let person={
+    name1: "chaip",
+    name2:"prachai"
+    }
+    console.log("javascript of objects  "+person.name1)
+
+5. Variables declared with let or const should be within a block scope, and 
+   class body itself does not qualify as a block scope.
+   Refer code line 92
+
